@@ -1,11 +1,14 @@
 uname -r
 ls /usr/src/kernels
-sudo yum install "kernel-devel-uname-r == $(uname -r)"
+
+sudo dnf install "kernel-devel-uname-r == $(uname -r)"
 reboot
+
 sudo dnf install kmod-wl
 reboot
-sudo akmods --force
+
 lspci -v -k
 sudo modprobe wl -v
-lspci -v -k
 reboot
+
+lspci -v -k
