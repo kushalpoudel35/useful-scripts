@@ -1,0 +1,21 @@
+.card {
+ font-family: arial;
+ font-size: 24px;
+ text-align: left;
+ margin-left: 22vw;
+ margin-right: 15vw;
+ color: black;
+ background-color: Ivory;
+}
+
+.cloze {
+ font-weight: bold;
+ color: ForestGreen;
+}
+.nightMode .cloze {
+ color: lightblue;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
