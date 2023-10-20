@@ -1,6 +1,6 @@
 # Changing the container only (works only if the output supports the codecs of the input)
 # It is quicker
-ffmpeg -i input.mp4 -vcodec copy -acodec copy output.mkv
+ffmpeg -i input.mkv -vcodec copy -acodec copy output.mp4
 
 # If the output does not support the codecs of the input, use the following (it takes longer coz ffmpeg has to encode the entire file):
-ffmpeg -i input.mp4 output.mkv
+ffmpeg -i input.mkv output.mp4
