@@ -1,9 +1,9 @@
 .card {
  font-family: arial;
- font-size: 24px;
+ font-size: 22px;
  text-align: left;
- margin-left: 15vw;
- margin-right: 15vw;
+ margin-left: 10vw;
+ margin-right: 10vw;
  color: black;
  background-color: Ivory;
 }
