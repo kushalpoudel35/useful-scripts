@@ -1,1 +1,5 @@
+<div style="font-size: 14px; color: gray; font-weight: bold; text-align: left;">
+  {{Subdeck}}
+</div>
+
 {{cloze:Text}}
