@@ -1,4 +1,4 @@
-<table border="1" style="border-collapse: collapse; width: auto; table-layout: auto; border: 1px;">
+<table border="2" style="border-collapse: collapse; width: auto; table-layout: auto;">
   <style>
     table td, table th {
       padding: 5px;
